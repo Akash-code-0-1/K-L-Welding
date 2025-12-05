@@ -22,6 +22,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "Welding Process Showcase",
+    src: "/v1.mp4",
     thumbnail: "/v1.mp4",
   },
   {
@@ -32,6 +33,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "Precision Metal Work",
+    src: "/v2.mp4",
     thumbnail: "/v2.mp4",
   },
   {
@@ -47,6 +49,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "Cutting & Fabrication Demo",
+    src: "/v3.mp4",
     thumbnail: "/v3.mp4",
   },
   {
@@ -62,6 +65,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "On-Site Installation",
+    src: "/v4.mp4",
     thumbnail: "/v4.mp4",
   },
   {
@@ -77,6 +81,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "Quality Inspection Process",
+    src: "/v5.mp4",
     thumbnail: "/v5.mp4",
   },
   {
@@ -84,9 +89,10 @@ const portfolioItems = [
     title: "Industrial Platforms",
     src: "/11.jpg",
   },
-    {
+  {
     type: "video",
     title: "Cutting & Fabrication Demo",
+    src: "/v6.mp4",
     thumbnail: "/v6.mp4",
   },
   {
@@ -102,6 +108,7 @@ const portfolioItems = [
   {
     type: "video",
     title: "On-Site Installation",
+    src: "/v7.mp4",
     thumbnail: "/v7.mp4",
   },
   {
@@ -119,31 +126,32 @@ const portfolioItems = [
     title: "Industrial Platforms",
     src: "/16.jpg",
   },
-    {
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/17.jpg",
   },
-    {
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/18.jpg",
   },
-    {
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/19.jpg",
   },
-    {
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/20.jpg",
   },
-    {
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/21.jpg",
-  },  {
+  },
+  {
     type: "image",
     title: "Industrial Platforms",
     src: "/22.jpg",
@@ -190,7 +198,6 @@ export default function Portfolio() {
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
               />
 
-              {/* Overlay with title and play button */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-end justify-between p-4">
                 {item.type === "video" && (
                   <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0 transform group-hover:scale-110 transition-smooth">
@@ -200,7 +207,6 @@ export default function Portfolio() {
                 <p className="text-white font-semibold text-sm text-left w-full">{item.title}</p>
               </div>
 
-              {/* Video indicator badge */}
               {item.type === "video" && (
                 <div className="absolute top-3 right-3 bg-primary text-primary-foreground text-xs font-bold px-2 py-1 rounded animate-glow">
                   VIDEO
@@ -219,7 +225,6 @@ export default function Portfolio() {
               className="bg-black rounded-lg max-w-4xl w-full max-h-[90vh] flex flex-col animate-scale-in"
               onClick={(e) => e.stopPropagation()}
             >
-              {/* Close button */}
               <div className="flex items-center justify-between p-4 border-b border-white/10">
                 <h3 className="text-white font-semibold">{portfolioItems[selectedItem].title}</h3>
                 <button
@@ -230,28 +235,25 @@ export default function Portfolio() {
                 </button>
               </div>
 
-              {/* Media container */}
               <div className="flex-1 overflow-auto flex items-center justify-center p-4">
                 {portfolioItems[selectedItem].type === "image" ? (
                   <img
-                    src={portfolioItems[selectedItem].src || "/placeholder.svg"}
+                    src={portfolioItems[selectedItem].src}
                     alt={portfolioItems[selectedItem].title}
                     className="max-h-full max-w-full object-contain rounded animate-fade-in"
                   />
                 ) : (
-                  <div className="aspect-video w-full bg-black rounded flex items-center justify-center animate-fade-in">
-                    <div className="text-center">
-                      <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 hover:scale-110 transition-smooth">
-                        <Play size={40} className="text-primary-foreground ml-1" fill="currentColor" />
-                      </div>
-                      <p className="text-white text-lg font-semibold">{portfolioItems[selectedItem].title}</p>
-                      <p className="text-white/60 mt-2">Video content preview</p>
-                    </div>
-                  </div>
+                  <video
+                    controls
+                    autoPlay
+                    className="max-h-full max-w-full object-contain rounded animate-fade-in"
+                  >
+                    <source src={portfolioItems[selectedItem].src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 )}
               </div>
 
-              {/* Navigation arrows */}
               <div className="flex items-center justify-between p-4 border-t border-white/10">
                 <button
                   onClick={() => setSelectedItem((prev) => (prev! - 1 + portfolioItems.length) % portfolioItems.length)}

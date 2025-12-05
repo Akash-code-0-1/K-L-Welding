@@ -7,82 +7,146 @@ const portfolioItems = [
   {
     type: "image",
     title: "Commercial Steel Structures",
-    src: "/commercial-steel-welded-structure.jpg",
+    src: "/1.jpg",
   },
   {
     type: "image",
     title: "Custom Decorative Gates",
-    src: "/ornate-decorative-metal-gates.jpg",
+    src: "/2.jpg",
   },
   {
     type: "image",
     title: "Industrial Fabrication",
-    src: "/heavy-industrial-metal-fabrication.jpg",
+    src: "/3.jpg",
   },
   {
     type: "video",
     title: "Welding Process Showcase",
-    thumbnail: "/welding-process-sparks.jpg",
+    thumbnail: "/v1.mp4",
   },
   {
     type: "image",
     title: "Structural Steel Assembly",
-    src: "/structural-steel-framework.jpg",
+    src: "/4.jpg",
   },
   {
     type: "video",
     title: "Precision Metal Work",
-    thumbnail: "/precision-metal-welding.jpg",
+    thumbnail: "/v2.mp4",
   },
   {
     type: "image",
     title: "Staircase Handrails",
-    src: "/welded-metal-staircase-handrails.jpg",
+    src: "/5.jpg",
   },
   {
     type: "image",
     title: "Storage Tank Fabrication",
-    src: "/metal-storage-tank-welded.jpg",
+    src: "/6.jpg",
   },
   {
     type: "video",
     title: "Cutting & Fabrication Demo",
-    thumbnail: "/metal-cutting-fabrication.jpg",
+    thumbnail: "/v3.mp4",
   },
   {
     type: "image",
     title: "Building Support Beams",
-    src: "/steel-building-support-beams.jpg",
+    src: "/7.jpg",
   },
   {
     type: "image",
     title: "Welded Pipe Systems",
-    src: "/welded-industrial-pipes.jpg",
+    src: "/8.jpg",
   },
   {
     type: "video",
     title: "On-Site Installation",
-    thumbnail: "/metal-installation-site.jpg",
+    thumbnail: "/v4.mp4",
   },
   {
     type: "image",
     title: "Custom Metal Art",
-    src: "/custom-welded-metal-art.jpg",
+    src: "/9.jpg",
   },
   {
     type: "image",
     title: "Bridge Framework",
-    src: "/steel-bridge-framework-welded.jpg",
+    src: "/10.jpg",
   },
   {
     type: "video",
     title: "Quality Inspection Process",
-    thumbnail: "/metal-welding-inspection.jpg",
+    thumbnail: "/v5.mp4",
   },
   {
     type: "image",
     title: "Industrial Platforms",
-    src: "/placeholder.svg?height=500&width=500",
+    src: "/11.jpg",
+  },
+    {
+    type: "video",
+    title: "Cutting & Fabrication Demo",
+    thumbnail: "/v6.mp4",
+  },
+  {
+    type: "image",
+    title: "Building Support Beams",
+    src: "/12.jpg",
+  },
+  {
+    type: "image",
+    title: "Welded Pipe Systems",
+    src: "/13.jpg",
+  },
+  {
+    type: "video",
+    title: "On-Site Installation",
+    thumbnail: "/v7.mp4",
+  },
+  {
+    type: "image",
+    title: "Custom Metal Art",
+    src: "/14.jpg",
+  },
+  {
+    type: "image",
+    title: "Bridge Framework",
+    src: "/15.jpg",
+  },
+  {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/16.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/17.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/18.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/19.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/20.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/21.jpg",
+  },  {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/22.jpg",
   },
 ]
 

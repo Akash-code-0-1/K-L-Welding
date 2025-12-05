@@ -23,7 +23,7 @@ const portfolioItems = [
     type: "video",
     title: "Welding Process Showcase",
     src: "/v1.mp4",
-    thumbnail: "/v1.mp4",
+    thumbnail: "/vth1.png",
   },
   {
     type: "image",
@@ -34,7 +34,7 @@ const portfolioItems = [
     type: "video",
     title: "Precision Metal Work",
     src: "/v2.mp4",
-    thumbnail: "/v2.mp4",
+    thumbnail: "/vth2.png",
   },
   {
     type: "image",
@@ -50,7 +50,7 @@ const portfolioItems = [
     type: "video",
     title: "Cutting & Fabrication Demo",
     src: "/v3.mp4",
-    thumbnail: "/v3.mp4",
+    thumbnail: "/vth3.png",
   },
   {
     type: "image",
@@ -66,7 +66,7 @@ const portfolioItems = [
     type: "video",
     title: "On-Site Installation",
     src: "/v4.mp4",
-    thumbnail: "/v4.mp4",
+    thumbnail: "/vth4.png",
   },
   {
     type: "image",
@@ -82,7 +82,7 @@ const portfolioItems = [
     type: "video",
     title: "Quality Inspection Process",
     src: "/v5.mp4",
-    thumbnail: "/v5.mp4",
+    thumbnail: "/vth5.png",
   },
   {
     type: "image",
@@ -93,7 +93,7 @@ const portfolioItems = [
     type: "video",
     title: "Cutting & Fabrication Demo",
     src: "/v6.mp4",
-    thumbnail: "/v6.mp4",
+    thumbnail: "/vth6.png",
   },
   {
     type: "image",
@@ -109,7 +109,7 @@ const portfolioItems = [
     type: "video",
     title: "On-Site Installation",
     src: "/v7.mp4",
-    thumbnail: "/v7.mp4",
+    thumbnail: "/vth7.png",
   },
   {
     type: "image",
@@ -155,6 +155,16 @@ const portfolioItems = [
     type: "image",
     title: "Industrial Platforms",
     src: "/22.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/23.jpg",
+  },
+    {
+    type: "image",
+    title: "Industrial Platforms",
+    src: "/24.jpg",
   },
 ]
 

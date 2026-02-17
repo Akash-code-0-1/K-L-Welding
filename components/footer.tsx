@@ -85,33 +85,14 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div>
-              <h4 className="font-semibold mb-4">Follow Us</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://www.facebook.com/profile.php?id=61572774364605&mibextid=wwXIfr&rdid=UDZJWvh4sLUfELQF&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZTrVTZVSJ%2F%3Fmibextid%3DwwXIfr#"
+                  href="http://facebook.com/story.php?story_fbid=122133828032759145&id=61572774364605&mibextid=wwXIfr&rdid=mjhgpKJi2ksRXqcJ#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-background/20 hover:bg-background/30 rounded-full flex items-center justify-center transition-colors transform hover:scale-110 hover:-translate-y-1"
                 >
                   <Facebook size={18} />
-                </a>
-
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-background/20 hover:bg-background/30 rounded-full flex items-center justify-center transition-colors transform hover:scale-110 hover:-translate-y-1"
-                >
-                  <Instagram size={18} />
-                </a>
-
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-background/20 hover:bg-background/30 rounded-full flex items-center justify-center transition-colors transform hover:scale-110 hover:-translate-y-1"
-                >
-                  <Linkedin size={18} />
                 </a>
               </div>
             </div>

@@ -93,7 +93,7 @@ export default function Hero() {
               }`}
             >
               <img
-                src="/professional-welder-working-with-metal-sparks.jpg"
+                src="/professional-welder-working-with-metal-sparks.jpeg"
                 alt="Professional welding work"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

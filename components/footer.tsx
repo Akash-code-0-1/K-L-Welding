@@ -87,7 +87,7 @@ export default function Footer() {
             <div>
               <div className="flex gap-4">
                 <a
-                  href="http://facebook.com/story.php?story_fbid=122133828032759145&id=61572774364605&mibextid=wwXIfr&rdid=mjhgpKJi2ksRXqcJ#"
+                  href="https://www.facebook.com/profile.php?id=61572774364605"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 bg-background/20 hover:bg-background/30 rounded-full flex items-center justify-center transition-colors transform hover:scale-110 hover:-translate-y-1"
